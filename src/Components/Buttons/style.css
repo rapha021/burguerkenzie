@@ -1,0 +1,29 @@
+.button {
+  width: 130px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: var(--color-primary-50);
+}
+
+.medium {
+  height: 40px;
+}
+
+.gray {
+  background-color: var(--gray-20);
+  color: var(--gray-50);
+}
+
+.gray:hover {
+  background-color: var(--gray-50);
+  color: var(--gray-20);
+}
